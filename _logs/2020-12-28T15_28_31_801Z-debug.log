@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'styled-components',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session 8eb377c5ef586d57
+5 verbose type system
+6 verbose stack FetchError: request to https://registry.npmjs.org/styled-components failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+6 verbose stack     at ClientRequest.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+6 verbose stack     at ClientRequest.emit (events.js:315:20)
+6 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:426:9)
+6 verbose stack     at TLSSocket.emit (events.js:315:20)
+6 verbose stack     at emitErrorNT (internal/streams/destroy.js:92:8)
+6 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+6 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+7 verbose cwd c:\react\project\login
+8 verbose Windows_NT 6.1.7601
+9 verbose argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "--json" "styled-components" "description" "dist-tags.latest" "homepage" "version"
+10 verbose node v12.18.4
+11 verbose npm  v6.14.6
+12 error code EAI_AGAIN
+13 error errno EAI_AGAIN
+14 error request to https://registry.npmjs.org/styled-components failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+15 verbose exit [ 1, true ]
